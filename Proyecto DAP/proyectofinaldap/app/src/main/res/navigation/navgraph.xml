@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navgraph"
+    app:startDestination="@id/logInFragment">
+
+    <fragment
+        android:id="@+id/logInFragment"
+        android:name="com.example.proyectofinaldap.LogInFragment"
+        android:label="fragment_log_in"
+        tools:layout="@layout/fragment_log_in" >
+        <action
+            android:id="@+id/action_logInFragment_to_registerFragment2"
+            app:destination="@id/registerFragment" />
+        <action
+            android:id="@+id/action_logInFragment_to_recyclerFragment"
+            app:destination="@id/recyclerFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/registerFragment"
+        android:name="com.example.proyectofinaldap.RegisterFragment"
+        android:label="fragment_register"
+        tools:layout="@layout/fragment_register" >
+        <action
+            android:id="@+id/action_registerFragment_to_logInFragment"
+            app:destination="@id/logInFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/recyclerFragment"
+        android:name="com.example.proyectofinaldap.RecyclerFragment"
+        android:label="fragment_recycler"
+        tools:layout="@layout/fragment_recycler" >
+        <action
+            android:id="@+id/action_recyclerFragment_to_descripcionFragment"
+            app:destination="@id/descripcionFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/descripcionFragment"
+        android:name="com.example.proyectofinaldap.descripcionFragment"
+        android:label="fragment_descripcion"
+        tools:layout="@layout/fragment_descripcion" />
+</navigation>
