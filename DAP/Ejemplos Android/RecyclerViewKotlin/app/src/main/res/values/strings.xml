@@ -1,0 +1,44 @@
+<!--
+     Copyright (C) 2020 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources>
+    <string name="app_name">RecyclerView Sample</string>
+    <string name="add_carne">Agregar Carne</string>
+
+    <string name="carne1_name">bife</string>
+    <string name="carne2_name">churrasco</string>
+    <string name="carne3_name">entrana</string>
+    <string name="carne4_name">vacio</string>
+    <string name="carne5_name">picana</string>
+    <string name="carne6_name">ojodebife</string>
+
+    <string name="carne1_description">Se obtiene del lomo alto dejando solo el hueso de la costilla. El término se usa en España sobre todo cuando la porción de carne es de buen tamaño. </string>
+    <string name="carne2_description">También conocido por los argentinos como asado de tira. Es un corte de aproximadamente 1 centímetro de grosor, aunque se puede cortar a gusto del consumidor, y tiene forma de tira. Se saca del despiece que se obtiene de la falda cortada transversalmente, incluyendo los huesos del costillar..</string>
+    <string name="carne3_description">Corresponde al diafragma del animal y tiene forma alargada. Es una pieza recubierta con una piel bastante dura, que se quita con facilidad; es mejor cocinarla con ella para que quede más jugosa.</string>
+    <string name="carne4_description">Se sitúa en la parte lateral, junto a las costillas, donde ya no hay hueso. Es una carne fibrosa recubierta de dos capas de grasa externa que retiene sus jugos al cocinarla.</string>
+    <string name="carne5_description">Está situada en la zona exterior del cuarto trasero, junto a la cadera. Es una pieza de forma triangular, cubierta de grasa en la parte superior. Cuanta más grasa tenga la pieza, se considerará de mejor calidad.</string>
+    <string name="carne6_description">Es el lomo alto limpio, sin tapilla y sin intercostal. La traducción es “ojo de costilla” por ser eso, el centro del lomo, y muy posiblemente lo encontrarás en las cartas como "ojo de bife". También es un corte típico americano y tiene un gran sabor y jugosidad.</string>
+
+    <string name="carne_string">Carnes</string>
+    <string name="carne_finder">Lista carnes</string>
+    <string name="carne_description_edit_text">Descrpcion de carne</string>
+    <string name="carne_name_edit_text">Nombre de la carne</string>
+    <string name="done_button_text">Listo</string>
+    <string name="fab_content_description">fab</string>
+    <string name="carne_image_content_description">Imagen de carne</string>
+    <string name="remove_this_carne">Borrar esta carne</string>
+
+</resources>
